@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Short+Stack&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calcul d'IMC</h1>
+        <div class="inputs-container">
+            <div class="input-group">
+                <label for="height">Votre taille en centimètres</label>
+                <input id="height" type="number" class="bmi-input" placeholder="ex: 180">
+            </div>
+
+            <div class="input-group">
+                <label for="weight">Votre poids en kg</label>
+                <input id="weight" type="number" class="bmi-input" placeholder="ex: 75">
+            </div>
+        </div>
+        <div class="validation-btn">Calculer IMC</div>
+        <div class="bmi-value">0</div>
+        <div class="comment">En attente de résultat ...</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
